@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <div class="container">
+        <form action="submit_feedback.php" method="post">
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="6" placeholder="Write your feedback here..."
+                required></textarea><br><br>
+
+                <div class="star-container">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div> <br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        // JavaScript to handle star rating
+        const stars = document.querySelectorAll(".star");
+
+        stars.forEach((star, index) => {
+            star.addEventListener("click", () => {
+                // Remove 'checked' class from all stars
+                stars.forEach((s, i) => {
+                    if (i <= index) {
+                        s.classList.add("checked");
+                    } else {
+                        s.classList.remove("checked");
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

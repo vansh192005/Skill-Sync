@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aptitude test</title>
+    <link rel="stylesheet" href="aptitude.css">
+</head>
+<body>
+    <header>
+        <h1>Test Your Learnings and Update Yourself</h1>
+    </header>
+    <div class="container">
+        <form action="submit_answers.php" method="post">
+            <h2>Multiple Choice Questions (10x2 marks each)</h2>
+            <!-- Add your MCQ questions here -->
+            <ol>
+                <li>Question 1: <input type="radio" name="mcq1" value="optionA"> Option A <input type="radio" name="mcq1" value="optionB"> Option B</li>
+                <!-- Repeat for remaining MCQs -->
+            </ol>
+
+            <h2>Audio Questions (15x2 marks each)</h2>
+            <!-- Add your audio questions here -->
+            <ol>
+                <li>Question 1: <audio controls><source src="audio/question1.mp3" type="audio/mpeg"></audio></li>
+                <!-- Repeat for remaining audio questions -->
+            </ol>
+
+            <h2>Descriptive Questions (15x2 marks each)</h2>
+            <!-- Add your descriptive questions here -->
+            <ol>
+                <li>Question 1: <textarea name="desc1" rows="5" cols="50" placeholder="Type your answer here..." required></textarea></li>
+                <!-- Repeat for remaining descriptive questions -->
+            </ol>
+
+            <h2>Self-Response Questions (10x2 marks each)</h2>
+            <!-- Add your self-response questions here -->
+            <ol>
+                <li>Question 1: <textarea name="self1" rows="8" cols="50" placeholder="Type your answer here..." required></textarea></li>
+                <!-- Repeat for remaining self-response questions -->
+            </ol>
+
+            <button type="submit">Submit Answers</button>
+        </form>
+    </div>
+</body>
+</html>

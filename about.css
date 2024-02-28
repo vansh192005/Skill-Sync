@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("visual.jpg") no-repeat center center fixed; */
+    height: 100%;
+    background-size: cover;
+    color: rgb(14, 14, 14);
+    background-color: rgb(186, 176, 68);
+}
+
+h1 {
+    /* text-align: center; */
+    border: 3px solid grey;
+    display: block;
+    width: 11%;
+    margin: 40px auto;
+}
+
+.content p {
+    position: absolute;
+    right: 22%;
+    width: 54%;
+    height: 0px;
+    /* border: 3px solid #73AD21; */
+    padding: 10px;
+    font-size: 18px;
+}

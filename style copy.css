@@ -1,0 +1,190 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("Modern-executive-office-design-space-Theresa-G.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
+    color: rgb(255, 253, 253);
+    /* background-color: rgb(235, 221, 70); */
+}
+
+.left {
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    display: block;
+    width: 42%;
+    margin: 40px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(207, 205, 205);
+    background-color: black;
+    padding: 10px;
+    transition: 0.3s ease-in;
+    border-radius: 15px;
+}
+
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 42px;
+}
+
+.right button{
+    border: 2px solid rgb(183, 217, 71);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 28px;
+    padding: 14px;
+}
+
+.right button:hover{
+    background-color: rgb(101, 101, 101);
+}
+
+.main{
+    display: block;
+    width: 33%;
+    margin: 128px 600px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+    color: rgb(243, 9, 9); 
+}
+
+.tagline{
+    width: 125%;
+    margin : -10px -125px;
+    color: white;
+}
+
+hr {
+    width: 136%;
+    margin: -10px -113px;
+}
+
+table{
+    width: 100%;
+}
+
+#items{
+    list-style-type: square;
+}
+
+.align1{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    top: 360px;
+}
+.align2{
+    /* border: 2px solid red; */
+    display: block;
+    position: absolute;
+    margin: 6px 220px;
+}
+
+.align3{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 160px;
+    top: 360px;
+}
+
+.align4{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    top: 608px;
+}
+.align5{
+    /* border: 2px solid red; */
+    display: block;
+    position: absolute;
+    margin: 256px 220px;
+}
+
+.align6{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 608px;
+}
+
+.courses h2{
+    font-size: 24px;
+}
+
+.courses h2 li{
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+}
+
+.courses ul li{
+    font-size: 22px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.courses li a{
+    color: rgb(17, 0, 255);
+    text-decoration: none;
+    background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  
+}
+
+.courses li a:hover{
+    background-size: 0 3px, 100% 3px;
+}
+
+
+
+

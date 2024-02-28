@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url("visual.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
+    color: rgb(255, 253, 253);
+    background-color: rgb(235, 221, 70);
+}
+
+h1{
+    text-align: center;
+}

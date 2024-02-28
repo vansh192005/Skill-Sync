@@ -1,0 +1,284 @@
+@media screen and (min-width: 600px),
+screen and (orientation: landscape){
+    body{
+        color: blue
+    }
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("Modern-executive-office-design-space-Theresa-G.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-size: cover;
+    color: rgb(255, 253, 253);
+    /* background-color: rgb(235, 221, 70); */
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.left h1 {
+    color: rgb(228, 222, 22);
+    font-size: 34px;
+    margin: 4px;
+    font-family: 'EB Garamond', serif;
+}
+
+.mid {
+    border: 2px solid grey;
+    display: block;
+    width: 42%;
+    margin: 40px 445px;
+}
+
+.navbar {
+    display: inline-block;
+    /* overflow: hidden; */
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(110, 174, 230);
+    background-color: black;
+    padding: 10px;
+    transition: 0.3s ease-in;
+    border-radius: 15px;
+    transform: scale(1.5);
+    font-size: 20px;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 44px;
+    top: 50px;
+}
+
+.right button {
+    border: 2px solid rgb(183, 217, 71);
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 7px;
+    padding: 10px;
+    width: 164px;
+    text-decoration: underline;
+}
+
+.right a {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.right button:hover {
+    background-color: rgb(161, 161, 161);
+    color: black;
+}
+
+.right a:hover {
+    color: black;
+}
+
+.main {
+    display: block;
+    width: 33%;
+    margin: 128px 600px;
+    font-size: 25px;
+    color: rgb(228, 222, 22);
+}
+
+.main h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-size: 62px;
+}
+
+
+.tagline {
+    width: 125%;
+    margin: -10px -165px;
+    color: white;
+}
+
+.tagline p {
+    width: 125%;
+    margin: -10px 96px;
+    color: white;
+}
+
+.main hr {
+    width: 136%;
+    margin: 35px -90px;
+}
+
+table {
+    width: 100%;
+}
+
+#items {
+    list-style-type: square;
+}
+
+.align1 {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    top: 420px;
+}
+
+.align2 {
+    /* border: 2px solid red; */
+    display: block;
+    position: absolute;
+    margin: -11px 278px;
+}
+
+.align3 {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 160px;
+    top: 420px;
+}
+
+.align4 {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 230px;
+    top: 645px;
+}
+
+.align5 {
+    /* border: 2px solid red; */
+    display: block;
+    position: absolute;
+    margin: 212px 278px;
+}
+
+.align6 {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 88px;
+    top: 645px;
+}
+
+.courses h2 {
+    font-size: 24px;
+}
+
+.courses h2 li {
+    font-family: 'Noto Serif NP Hmong', serif;
+    /* letter-spacing: 3px; */
+    font-size: 26px;
+}
+
+.courses ul li {
+    font-size: 22px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.courses li a {
+    color: rgb(172, 172, 172);
+    letter-spacing: 1px;
+    text-decoration: none;
+    background:
+        linear-gradient(to right,
+            rgba(100, 200, 200, 1),
+            rgba(100, 200, 200, 1)),
+        linear-gradient(to right,
+            rgba(255, 0, 0, 1),
+            rgba(255, 0, 180, 1),
+            rgba(0, 100, 200, 1));
+    background-size: 100% 3px, 0 3px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+
+}
+
+.courses li a:hover {
+    background-size: 0 3px, 100% 3px;
+    color: rgb(49, 49, 255);
+}
+
+
+footer {
+    margin: 650px 0 0;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+/* Social media icon styles */
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons #instagram{
+    width: 25px;
+    height: 25px;
+}
+
+#insta:hover{
+    cursor: img('insta.png'),pointer;
+    width: 80px;
+}
+
+.social-icons #linkedin{
+    width: 55px;
+    height: 35px;
+}
+
+.social-icons #twitter{
+    width: 35px;
+    height: 25px;
+}
+
+.social-icons #facebook{
+    width: 30px;
+    height: 25px;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Copyright notice styles */
+.copyright {
+    font-size: 12px;
+}
